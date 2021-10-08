@@ -1,7 +1,6 @@
 ## Documentação 'Transaction Query MII': AP_ExistenciaUnidadeMedidaSelectQuery.tqsq
 
 ---
-<p align="right" width="100%">
 
 <br><br>
 
@@ -138,5 +137,3 @@ ORDER BY NAME
 ```
 
 <br><br>
-</p>
-
