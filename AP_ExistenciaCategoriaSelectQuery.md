@@ -7,10 +7,12 @@
 
 ### Listas de Tabelas utilizadas e ações realizadas:
 <span align="right">
+  
 |    | DML    | Target        |
 |---:|:-------|:--------------|
 |  0 | SELECT | DUAL          |
 |  1 | SELECT | AP_CATEGORIES |
+
 </span>
 <br><br>
 
