@@ -6,14 +6,14 @@
 <br><br>
 
 ### Listas de Tabelas utilizadas e ações realizadas:
-<span align="right">
+<p align="left">
   
 |    | DML    | Target        |
 |---:|:-------|:--------------|
 |  0 | SELECT | DUAL          |
 |  1 | SELECT | AP_CATEGORIES |
 
-</span>
+</p>
 <br><br>
 
 ### Atributos da 'Query':
