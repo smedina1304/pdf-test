@@ -1,0 +1,41 @@
+pscp -i .\Putty-key-labdocker\pc-2020.ppk ip172-18-0-9-c5g6ikvnjsv000bb8gp0@direct.labs.play-with-docker.com:/root/pdf-test/*.pdf .\ 
+
+
+=====================================================
+https://hub.docker.com/r/dalibo/pandocker/
+
+docker run --rm -u `id -u`:`id -g` \
+-v `pwd`:/pandoc dalibo/pandocker \
+--pdf-engine=xelatex \
+-V subparagraph \
+-V geometry:"top=1cm, bottom=2cm, left=1cm, right=1cm" \
+meu_teste.md \
+-o meu_teste_xelatex.pdf
+
+
+docker run --rm -u `id -u`:`id -g` \
+-v `pwd`:/pandoc dalibo/pandocker \
+--pdf-engine=xelatex \
+--template=eisvogel \
+-V subparagraph \
+-V geometry:"top=1cm, bottom=2cm, left=1cm, right=1cm" \
+meu_teste.md \
+-o meu_teste_eisvogel.pdf
+
+
+docker run --rm -u `id -u`:`id -g` \
+-v `pwd`:/pandoc dalibo/pandocker \
+--pdf-engine=pdflatex \
+-V subparagraph \
+-V geometry:"top=1cm, bottom=2cm, left=1cm, right=1cm" \
+meu_teste.md \
+-o meu_teste_pdflatex.pdf
+
+
+docker run --rm -u `id -u`:`id -g` \
+-v `pwd`:/pandoc dalibo/pandocker \
+--pdf-engine=xelatex \
+-V subparagraph \
+-V geometry:"top=1cm, bottom=1cm, left=1cm, right=1cm" \
+meu_teste.md \
+-o meu_teste.docx
