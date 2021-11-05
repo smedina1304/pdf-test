@@ -14,16 +14,16 @@
 ### Atributos da 'Query':
 |    | Attribute                  | Value                                                                  |
 |---:|:---------------------------|:-----------------------------------------------------------------------|
-|  0 | AllowBuffering             | false                                                                  |
-|  1 | AllowFuture                | true                                                                   |
-|  2 | AutoTypeParameters         | false                                                                  |
-|  3 | CacheDuration              | 0                                                                      |
-|  4 | CacheDurationUnits         | M                                                                      |
-|  5 | Columns                    |                                                                        |
-|  6 | Comment                    |                                                                        |
-|  7 | Connector                  |                                                                        |
-|  8 | DateColumn                 |                                                                        |
-|  9 | DateFormat                 | MM/dd/yyyy HH:mm:ss                                                    |
+| 00 | AllowBuffering             | false                                                                  |
+| 01 | AllowFuture                | true                                                                   |
+| 02 | AutoTypeParameters         | false                                                                  |
+| 03 | CacheDuration              | 0                                                                      |
+| 04 | CacheDurationUnits         | M                                                                      |
+| 05 | Columns                    |                                                                        |
+| 06 | Comment                    |                                                                        |
+| 07 | Connector                  |                                                                        |
+| 08 | DateColumn                 |                                                                        |
+| 09 | DateFormat                 | MM/dd/yyyy HH:mm:ss                                                    |
 | 10 | Debug                      | false                                                                  |
 | 11 | Description                |                                                                        |
 | 12 | DocType                    | SQLQuery                                                               |
