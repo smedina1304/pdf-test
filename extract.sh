@@ -1,1 +1,1 @@
-cat ./Docs.tar.0* | tar z
+cat ./Docs.tar.0* | tar x
