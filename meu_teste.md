@@ -2,6 +2,7 @@
 
 ---
 
+
 <br><br>
 
 ### Listas de Tabelas utilizadas e ações realizadas:
@@ -12,55 +13,55 @@
 <br><br>
 
 ### Atributos da 'Query':
-|    | Attribute                  | Value                                                                  |
-|---:|:---------------------------|:-----------------------------------------------------------------------|
-| 00 | AllowBuffering             | false                                                                  |
-| 01 | AllowFuture                | true                                                                   |
-| 02 | AutoTypeParameters         | false                                                                  |
-| 03 | CacheDuration              | 0                                                                      |
-| 04 | CacheDurationUnits         | M                                                                      |
-| 05 | Columns                    |                                                                        |
-| 06 | Comment                    |                                                                        |
-| 07 | Connector                  |                                                                        |
-| 08 | DateColumn                 |                                                                        |
-| 09 | DateFormat                 | MM/dd/yyyy HH:mm:ss                                                    |
-| 10 | Debug                      | false                                                                  |
-| 11 | Description                |                                                                        |
-| 12 | DocType                    | SQLQuery                                                               |
-| 13 | Duration                   | 60                                                                     |
-| 14 | DurationUnits              | M                                                                      |
-| 15 | EndDate                    |                                                                        |
-| 16 | FilterExpr                 |                                                                        |
-| 17 | Group                      |                                                                        |
-| 18 | GroupingExpr               |                                                                        |
-| 19 | ID                         | -1                                                                     |
-| 20 | InlineTransform            |                                                                        |
-| 21 | IntervalCount              | 1                                                                      |
-| 22 | IsCachable                 | false                                                                  |
-| 23 | JoinExpr                   |                                                                        |
-| 24 | Mask                       |                                                                        |
-| 25 | Method                     |                                                                        |
-| 26 | Mode                       | FixedQuery                                                             |
-| 27 | NumberFormat               | 0.00                                                                   |
-| 28 | Password                   |                                                                        |
-| 29 | PathID                     | 302                                                                    |
-| 32 | ReaderRoles                | SAP_XMII_User                                                          |
-| 33 | RestrictedPropertyOverride | false                                                                  |
-| 34 | RowCount                   | 120000                                                                 |
-| 35 | SaveDate                   | 12/14/2017 10:30:49                                                    |
-| 36 | Schedule                   |                                                                        |
-| 37 | Server                     | METRICA_USM                                                            |
-| 38 | Service                    |                                                                        |
-| 39 | SortExpr                   |                                                                        |
-| 40 | StartDate                  |                                                                        |
-| 41 | Tables                     |                                                                        |
-| 42 | Time                       |                                                                        |
-| 43 | TimePeriod                 |                                                                        |
-| 44 | Trace                      | false                                                                  |
-| 45 | UseTypedParams             | false                                                                  |
-| 46 | UserName                   |                                                                        |
-| 47 | Version                    | 15.1.5.0                                                               |
-| 48 | WriterRoles                | SAP_XMII_Developer,SAP_XMII_Administrator,SAP_XMII_Super_Administrator |
+|    | Attribute                  | Value                                                                    |
+|---:|:---------------------------|:-------------------------------------------------------------------------|
+|  0 | AllowBuffering             | false                                                                    |
+|  1 | AllowFuture                | true                                                                     |
+|  2 | AutoTypeParameters         | false                                                                    |
+|  3 | CacheDuration              | 0                                                                        |
+|  4 | CacheDurationUnits         | M                                                                        |
+|  5 | Columns                    |                                                                          |
+|  6 | Comment                    |                                                                          |
+|  7 | Connector                  |                                                                          |
+|  8 | DateColumn                 |                                                                          |
+|  9 | DateFormat                 | MM/dd/yyyy HH:mm:ss                                                      |
+| 10 | Debug                      | false                                                                    |
+| 11 | Description                |                                                                          |
+| 12 | DocType                    | SQLQuery                                                                 |
+| 13 | Duration                   | 60                                                                       |
+| 14 | DurationUnits              | M                                                                        |
+| 15 | EndDate                    |                                                                          |
+| 16 | FilterExpr                 |                                                                          |
+| 17 | Group                      |                                                                          |
+| 18 | GroupingExpr               |                                                                          |
+| 19 | ID                         | -1                                                                       |
+| 20 | InlineTransform            |                                                                          |
+| 21 | IntervalCount              | 1                                                                        |
+| 22 | IsCachable                 | false                                                                    |
+| 23 | JoinExpr                   |                                                                          |
+| 24 | Mask                       |                                                                          |
+| 25 | Method                     |                                                                          |
+| 26 | Mode                       | FixedQuery                                                               |
+| 27 | NumberFormat               | 0.00                                                                     |
+| 28 | Password                   |                                                                          |
+| 29 | PathID                     | 302                                                                      |
+| 32 | ReaderRoles                | SAP_XMII_User                                                            |
+| 33 | RestrictedPropertyOverride | false                                                                    |
+| 34 | RowCount                   | 120000                                                                   |
+| 35 | SaveDate                   | 12/14/2017 10:30:49                                                      |
+| 36 | Schedule                   |                                                                          |
+| 37 | Server                     | METRICA_USM                                                              |
+| 38 | Service                    |                                                                          |
+| 39 | SortExpr                   |                                                                          |
+| 40 | StartDate                  |                                                                          |
+| 41 | Tables                     |                                                                          |
+| 42 | Time                       |                                                                          |
+| 43 | TimePeriod                 |                                                                          |
+| 44 | Trace                      | false                                                                    |
+| 45 | UseTypedParams             | false                                                                    |
+| 46 | UserName                   |                                                                          |
+| 47 | Version                    | 15.1.5.0                                                                 |
+| 48 | WriterRoles                | SAP_XMII_Developer, SAP_XMII_Administrator, SAP_XMII_Super_Administrator |
 <br><br>
 
 ### Parametros (Prefix:Parameter):
@@ -126,10 +127,10 @@ Parametros da Query:
 <br><br>
 Script Query: 
 ```sql
-select '0' ID, '- Selecione -' as NAME from dual
+select '0' ID,  '- Selecione -' as NAME from dual
 
 UNION
-SELECT IdUnidadeMedida as ID, DescricaoUm as NAME
+SELECT IdUnidadeMedida as ID,  DescricaoUm as NAME
 FROM MES_UnidadeMedida
 WHERE '0' <> '[Param.1]' 
 ORDER BY NAME
